@@ -17,8 +17,8 @@ import { Link as LinkComponent } from "react-router-dom";
 export const Link = styled(LinkComponent)`
    text-decoration: none;
    color: black;
-   padding: 0.5rem;
+   padding: 1rem;
    &:hover {
-     background-color: #f0f0f0;
+     background-color: rgba(0, 0, 0, 0.1);
    }
 `

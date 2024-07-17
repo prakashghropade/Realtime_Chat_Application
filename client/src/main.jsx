@@ -10,7 +10,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <HelmetProvider>
 
     <CssBaseline/>
-    <App />
+
+    <div>
+    <App onContextmenu={(e) => e.preventDefault()} />
+    </div>
 
     </HelmetProvider>
   </React.StrictMode>,
